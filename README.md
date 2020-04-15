@@ -26,7 +26,7 @@ docker run -d -p 27017:27017 -v <db-dir>:/data/db --name mongodb dockerfile/mong
 
 docker run -d -p 27017:27017 -p 28017:28017 --name mongodb dockerfile/mongodb mongod --rest --httpinterface
 
-# Ejecutar con un tamaño mongodde archivo predeterminado más pequeño
+Ejecutar con un tamaño mongodde archivo predeterminado más pequeño
 
 docker run -d -p 27017:27017 --name mongodb dockerfile/mongodb mongod --smallfiles
 
